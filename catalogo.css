@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.wallpaper-header{
+    background-image: url("../Imagenes/libros.jpg");
+    height: 100vh;
+   background-size: cover;
+   background-position: bottom;
+   background-repeat: no-repeat;
+   z-index: -2;
+   text-align: center;
+   display: flex ;
+   justify-content: start;
+    align-items: center;
+   
+}
+.boton{
+    background-color: brown;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: rgb(230, 225, 221);
+    font-family: 'Bangers', cursive;
+    
+
+}
+   .boton:hover {
+       background-color:black ;
+       transition: 1s;
+   }
+   .espacio {
+       height:300px ;
+   }
+   .text-main{
+       margin-right:20px ;
+       
+   }
+   
+   .lado {
+       width: 1000px;
+  
+   }
+   .separacion{
+       height: 60px;
+       width: 100%;
+       background-color:#20232a;
+       color: #ffffff;
+      justify-content: center;
+       display: flex;
+       align-items: center;
+   }
+   .sobre-nosotros{
+       display: flex;
+       justify-content: space-evenly;
+   }
+   .libros{
+       display: flex;
+       justify-content: space-evenly;
+   }
+   .libros img{
+       width: 300px;
+       height: 350px;
+       
+   }
+   .romanticos{
+       background-color: burlywood;
+
+   }
+.cientificos{
+    background-color:rgb(196, 79, 79) ;
+
+}
+.literarios{
+    background-color: rgb(165, 83, 83);
+
+}
+   .historicos{
+       background-color: rgb(247, 132, 132);
+
+   }
+   .tarjeta-libro{
+       width: 300px;
+       background-color:white;
+       margin: 20px;
+      
+
+   }
+   .tarjeta-libro p{
+       margin: 10px ;
+
+   }
+   .tarjeta-libro:hover{
+    box-shadow: 0px 0px 16px 0px rgba(55, 30, 196, 0.75);
+    transition: 0.5s;
+   }
+   *  {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+ 
+   .formulario{
+       width: 400px;
+       background-color: #24303c;
+       padding: 30px;
+       margin: auto;
+       margin-top: 100px ;
+       border-radius: 4px;
+       font-family:'Times New Roman', Times, serif ;
+       color: white;
+       box-shadow: 7px 13px 37px #000;
+      
+   }
+   .formulario h4{
+       font-size: 22px;
+       margin-bottom: 20px;
+
+   }
+   .controles{
+       width: 100%;
+       background: #24303c;
+       padding: 10px;
+       border-radius: 4px;
+       margin-bottom: 20px;
+       border: 1px solid #1f53c5;
+       font-size: 18px;
+       color: white;
+   }
+   .formulario p {
+       height: 40px;
+       text-align: center;
+       font-size: 18px;
+       line-height: 40px;
+   }
+   .formulario a:hover {
+       color: white;
+       text-decoration: underline;
+
+   }
+   .formulario .botons {
+       width: 100%;
+       background: #1f53c5;
+       border: none;
+       padding: 12px;
+       color: white;
+       margin: 16px 0;
+       font-size: 16px;
+   }
